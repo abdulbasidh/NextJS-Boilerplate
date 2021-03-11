@@ -3,7 +3,7 @@
 
 OpenDavinci's NextJS has been developed to create rock solid UI frameworks apps boilerplate with no build configurations in seconds.
 
-## Available Integrations
+## Designed For
 
 
 <img src="images/available.png"  align="center" />
@@ -108,4 +108,4 @@ If you are willing to fix an issue or propose a feature; all PRs with clear expl
 
 ## License
 
-Licensed under the MIT License, Copyright © 2021-present OpenDaVinci
+Licensed under the APACHE-2.0 License, Copyright © 2021-present OpenDaVinci
