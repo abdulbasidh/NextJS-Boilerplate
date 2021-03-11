@@ -1,34 +1,111 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## About
 
-## Getting Started
 
-First, run the development server:
+OpenDavinci's NextJS has been developed to create rock solid UI frameworks apps boilerplate with no build configurations in seconds.
+
+## Available Integrations
+
+
+<img src="images/available.png"  align="center" />
+
+## Documentation
+For more detailed information and usage, continue reading.
+
+## Quick Start
+To create a new app download this repo:
+
+
+```bash
+git clone <repo name>
+```
+Make sure you have npx installed (npx is shipped by default since npm 5.2.0)
+Once downloaded, install all plugins and the dependencies. Then  navigate to the project folder and launch it:
 
 ```bash
 npm run dev
-# or
-yarn dev
 ```
+>Use the dev command when running application in development mode.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Philosophy
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- It provides a easy starting to your project in seconds with using industry-standard best practices and performance oriented tools & libraries.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Next.js Integration
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+OpenDaVinci's NextJS  makes it easier to get up and running with a well-structured Next.js application.
 
-## Learn More
+Next.js is a minimalistic React framework that runs on the browser and the server  with all the features you need for production: hybrid static & server rendering, TypeScript support, smart bundling, route pre-fetching, and more. It offers developers an easy way to get started, build server-side rendering and static web applications using React.
 
-To learn more about Next.js, take a look at the following resources:
+## Plugins
+This Boilerplate uses a plugin-based architecture. Basically, plugins are created from highly-demanded npm tools in the front-end ecosystem with configuration files.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+You can check them out below,
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## superplate-core-plugins
 
-## Deploy on Vercel
+### Plugins
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+#### UI Frameworks
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [Tailwind CSS](http://tailwindcss.com/)
+- [React Bootstrap](https://react-bootstrap.github.io/)
+
+#### CSS Preprocessors
+
+- [CSS / styled-jsx](https://github.com/vercel/styled-jsx)
+- [SASS / SCSS](https://sass-lang.com/)
+- [PostCSS](https://postcss.org/)
+
+#### Features
+
+- [Axios](https://github.com/axios/axios)
+- [SVGR](https://react-svgr.com/)
+- [Bundle Analyzer](https://github.com/vercel/next.js/tree/canary/packages/next-bundle-analyzer)
+
+#### Hooks
+
+- [SWR](https://swr.vercel.app/)
+- [React Query](https://react-query.tanstack.com/)
+- [react-use](https://github.com/streamich/react-use)
+
+### State Management
+
+- [Redux](https://react-redux.js.org/)
+- [Recoil](https://recoiljs.org/)
+
+### i18n
+
+- [next-translate](https://github.com/vinissimus/next-translate)
+- [next-i18next](https://github.com/isaachinman/next-i18next)
+
+### Linters / Formatters
+
+- [ESLint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
+- [lint-staged](https://github.com/okonet/lint-staged)
+
+### Testing Frameworks
+
+- [Jest](https://jestjs.io/)
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
+- [Enzyme](https://enzymejs.github.io/enzyme/)
+
+### E2E Testing Frameworks
+
+- [Cypress](https://docs.cypress.io/guides/overview/why-cypress.html)
+
+### CI Tools
+
+- [GitHub Actions](https://docs.github.com/en/actions)
+- [Travis CI](https://travis-ci.org/)
+
+
+## Contribution
+
+If you have a bug to report, do not hesitate to file an issue.
+
+If you are willing to fix an issue or propose a feature; all PRs with clear explanations are welcome and encouraged.
+
+## License
+
+Licensed under the MIT License, Copyright © 2021-present OpenDaVinci
